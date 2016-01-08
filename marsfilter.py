@@ -18,11 +18,12 @@ def fisheye(xy):
     # Polar coordinates
     r = np.sqrt(xc**2 + yc**2)
     theta = np.arctan2(yc, xc)
-
+    #r[r > 0.5*N.max(r)] = 0.8 * np.exp(r[r > 0.5*N.max(r)]**(1/2.1) / 1.8)
     r = 0.8 * np.exp(r**(1/2.1) / 1.8)
-
+    print r
+    P.hist(r)
     return np.column_stack((
-        r * np.cos(theta), r * np.sin(theta)
+       r * np.cos(theta), r * np.sin(theta)
         )) + center
         
 #out = transform.warp(image, fisheye)
