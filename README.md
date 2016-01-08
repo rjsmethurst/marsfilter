@@ -41,7 +41,7 @@ else:
     G = 0.0
     B = 0.0`
 
-To get the color scaling, we are taking the disk average reflectance spectrum of both Earth and Mars and comparing the relative scaling between values at R (650 nm), G (532 nm), and B (473 nm). The reflectance spectrum of Mars and Earth are from:
+To get the color scaling, we are taking the disk average reflectance spectra of Earth and Mars and comparing the relative scaling between values at R (650 nm), G (532 nm), and B (473 nm). The reflectance spectrum of Mars and Earth are from:
 
 Giovanna Tinetti, Victoria S. Meadows, David Crisp, William Fong, Thangasamy Velusamy, and Heather Snively. Astrobiology. August 2005, 5(4): 461-482. doi:10.1089/ast.2005.5.461.
 
