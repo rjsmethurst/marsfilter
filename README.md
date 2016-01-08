@@ -1,6 +1,6 @@
 ## marsfilter
 
-#Like #nofilter but for selfie's to look like they're taken on Mars!
+#Like #nofilter but for selfies to look like they're taken on Mars!
 
 Possible spectrum to RGB colour conversion...
 
