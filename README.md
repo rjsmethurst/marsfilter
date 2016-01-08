@@ -12,7 +12,7 @@ w - wavelength, R, G and B - color components
 
 Ignoring gamma and intensity simple leaves:
 
-if w >= 380 and w < 440:
+`if w >= 380 and w < 440:
     R = -(w - 440.) / (440. - 380.)
     G = 0.0
     B = 1.0
@@ -39,4 +39,4 @@ elif w >= 645 and w <= 780:
 else:
     R = 0.0
     G = 0.0
-    B = 0.0
+    B = 0.0`
